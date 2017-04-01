@@ -24,6 +24,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.c:before {
+.icon-news:before {
   content: "\e900";
 }
