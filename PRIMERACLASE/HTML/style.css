@@ -1,0 +1,17 @@
+@keyframes girar {
+  from{   transform: rotate(0deg);}
+  to{    transform: rotate(360deg);
+  }
+}
+
+
+.uno, .dos, .tres, .cuatro{
+
+  font-size: 100px;
+  animation-name: girar;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  display: inline-block;
+
+}

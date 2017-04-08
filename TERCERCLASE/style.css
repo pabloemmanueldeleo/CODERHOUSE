@@ -1,0 +1,12 @@
+div {
+
+  background: red;
+
+}
+
+@@media screen and (min-whidth: 768) and  {max-whidth: 1024){
+div{
+  background: yellow;
+}
+
+}

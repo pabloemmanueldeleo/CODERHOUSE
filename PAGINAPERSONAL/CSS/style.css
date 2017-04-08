@@ -1,6 +1,7 @@
 * {
   margin:0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 .barra{
     position: fixed;
@@ -24,7 +25,7 @@ nav li {
 nav li a{
   color: white;
   text-decoration: none;
-  text-align: inherit;
+  text-align: center;
 }
 
 nav ul li i{
@@ -44,7 +45,12 @@ p {
   font-family: 'Nunito', sans-serif;
 }
 
-.contenedor{
+.conteiner{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.descripcion{
   text-align: center;
   margin: 30px 10px;
   padding: 10px 0px;
@@ -54,15 +60,32 @@ ul li {
   list-style: none;
   font-family: 'Nunito', sans-serif;
 }
-
-.service{
-  margin: 20px 0px;
-  padding: 30px 0;
-  width: 100%;
+.entradaservicio{
   text-align: center;
-  background: rgb(36,99,221);
+  animation-name: righAnim;
+  animation-duration: 2s;
 }
+.service{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 6px 0px;
+  padding: 20px 0;
+  width: 100%;
+  background: rgba(98, 247, 199, 0.31);
+}
+
 .column{
-  text-align: center;
-  display: inline-block;
+  text-align: left;
+  padding: 10px 0;
+}
+@keyframes righAnim {
+  from{
+    transform: translateX(-10);
+  }
+
+  to{
+    transform: translateX(0);
+  }
 }
