@@ -1,9 +1,21 @@
+* {
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+nav li p{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
 div {
 
   background: red;
 
 }
-
+.block1{
+  background: yellow;
+}
 @@media screen and (min-whidth: 768) and  {max-whidth: 1024){
 div{
   background: yellow;
