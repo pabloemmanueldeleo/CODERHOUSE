@@ -17,7 +17,7 @@ div {
   background: yellow;
 }
 @media screen and (min-whidth: 768) and  {max-whidth: 1024){
-div.bloque1{
+div{
   background: yellow;
 }
 
