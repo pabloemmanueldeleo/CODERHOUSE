@@ -1,0 +1,13 @@
+/*Importo mis modulos*/
+@import "mixins_.scss";
+@import "variables_.scss";
+
+
+h1{
+  color: $azulClaro;
+  font-size: $fuenteBase;
+  @include borde-rojo(10px,green);
+  &:hover{
+    color: blue;}
+
+}

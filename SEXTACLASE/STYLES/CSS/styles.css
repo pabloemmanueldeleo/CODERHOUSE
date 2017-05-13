@@ -1,0 +1,10 @@
+/*Importo mis modulos*/
+/*genera color y el ancho de borde*/
+h1 {
+  color: #4c32b6;
+  font-size: 50px;
+  border: green dashed 10px; }
+  h1:hover {
+    color: blue; }
+
+/*# sourceMappingURL=styles.css.map */

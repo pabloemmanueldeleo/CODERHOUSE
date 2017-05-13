@@ -1,0 +1,4 @@
+/*genera color y el ancho de borde*/
+@mixin borde-rojo($ancho, $color){
+  border: $color dashed $ancho;
+}
